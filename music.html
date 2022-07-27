@@ -1,0 +1,42 @@
+<!-- Heavy credit to Sameer Saini, most css and a significant amount of code is from him-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2c94be328f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="music-player">
+            <div class="player">
+                <img src ="vinyl.png" alt="cover" class="record" id="balls">
+                <h2 id="title">Song Name</h2>
+                <div class="slidecontainer">
+                    <i class="fas fa-volume-down"></i>
+                    <input type="range" min="0" max="100" value="50" class="slider">
+                    <i class="fas fa-volume-up"></i>
+                </div>
+                <div class="controls">
+                    <button class="previous" id="previous"><i class="fas fa-step-backward"></i></button>
+                    <button class="play-pause" id="play-pause"><i class="fas fa-play"></i></button>
+                    <button class="next" id="next"><i class="fas fa-step-forward"></i></button>
+                </div>
+            </div>
+            <div class="playlist">
+                <h2>Playlist</h2>
+                <ul class="song-list"><li data-scr="music/Jesus Is Lord.mp3" data-name="Jesus Is Lord" data-index="0"><span>Jesus Is Lord</span></li>
+                    
+</ul>
+                <audio src="" id="audio"></audio>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
