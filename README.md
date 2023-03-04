@@ -6,7 +6,7 @@ To use this tool:
  * Clone the repo
  * Create a music folder in the same location as the "runme.java" file
  * Add mp3 files of all the songs that you want to be on your website
- * Change the file names of those songs to the name of the song itself
+ * Change the file names of those songs to the name of the song itself (optional)
  * Run the program
  
 This will leave you with a custom HTML file that will function just as the one on my personal website here:
